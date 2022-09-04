@@ -16,6 +16,8 @@ connection.connect(function(error) {
     console.log("Connected!");
 })
 
+// connection.end()
+
 
 //Funcion para evitar desconexion con la base de datos
 setInterval(function() {
